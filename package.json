@@ -1,7 +1,6 @@
 {
   "name": "all-setup",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -10,8 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --ignore-path .gitignore --write \"./src/**/*.+(js|ts|json)\"",
     "prettier:fix": "npx prettier --write src",
-    "start:dev":"ts-node-dev --respawn --transpile-only src/server.ts",
-    "start:prod":"node ./dist/server.js"
+    "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "start:prod": "node ./dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -32,5 +31,6 @@
     "prettier": "^3.1.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.3.2"
-  }
+  },
+  "description": ""
 }
