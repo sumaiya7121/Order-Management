@@ -1,6 +1,6 @@
 import cors from 'cors'
 import express, { Application, Request, Response } from 'express'
-import { userRoutes } from './app/modules/UserAndOrderManagement/UserAndOrderManagement.route'
+import { userRoutes } from './app/modules/UserAndOrderManagement/User.route'
 const app: Application = express()
 
 app.use(express.json())
